@@ -12,7 +12,6 @@ def pascal_triangle(n):
     """
     if n <= 0:
         return []
-
     triangle = [[1]]
     for row in range(1, n):
         new_row = [1]
